@@ -1,0 +1,171 @@
+/* school_page.css */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  width: 20%;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav-links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.banner-block {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.banner-block h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.banner-block p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.banner-block button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.details-block {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.details-block h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info-item img {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.info-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  line-height: 1.5;
+}
+
+.quotes {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.quote-block {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.quote-image {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.quote-content {
+  flex: 1;
+}
+
+.quote-content blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.quote-content p.quote-author {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote-content p.quote-text {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.featured-videos {
+  margin-top: 20px;
+}
+
+.featured-videos h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.video-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
